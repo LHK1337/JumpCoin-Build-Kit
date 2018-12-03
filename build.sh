@@ -63,9 +63,12 @@ export BOOST_LIB_PATH=../../boost_1_58_0/build/lib
 export OPENSSL_LIB_PATH=/../../openssl/build/openssl
 
 make -f makefile.unix
-
 strip jumcoind
 mv jumpcoind ../../jumpcoin_node
 
 cd ..
 
+qmake
+make
+
+cd ..
