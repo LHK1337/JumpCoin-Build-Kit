@@ -1,11 +1,11 @@
 # JumpCoin-Build-Kit
 
 # Required
-gcc
-make
-git
-wget
-curl
+gcc,
+make,
+git,
+wget,
+curl,
 (qt4)
 
 
