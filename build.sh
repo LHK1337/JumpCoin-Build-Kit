@@ -20,7 +20,7 @@ cd openssl
 
 git checkout OpenSSL_1_0_1-stable
 
-./config --prefix=build --openssldir=openssl
+./config --prefix="$basePath/openssl/build" --openssldir=openssl
 make
 make install
 
