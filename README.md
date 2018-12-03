@@ -1,5 +1,14 @@
 # JumpCoin-Build-Kit
 
+# Required
+gcc
+make
+git
+wget
+curl
+(qt4)
+
+
 run with
 
 ```
