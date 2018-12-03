@@ -58,9 +58,9 @@ cd ..
 
 export BOOST_INCLUDE_PATH=../../boost_1_58_0/build/include
 export BDB_INCLUDE_PATH=/../../db-4.8.30.NC/build_unix
-export OPENSSL_INCLUDE_PATH=/../../opennsl/build
+export OPENSSL_INCLUDE_PATH=/../../opennsl/build/include
 export BOOST_LIB_PATH=../../boost_1_58_0/build/lib
-export OPENSSL_LIB_PATH=/../../openssl/build/openssl
+export OPENSSL_LIB_PATH=/../../openssl/build/lib
 
 make -f makefile.unix
 strip jumcoind
