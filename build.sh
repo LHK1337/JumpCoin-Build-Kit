@@ -14,7 +14,7 @@ git clone https://github.com/Jumperbillijumper/jumpcoin.git
 git clone https://github.com/sagacrypto/SagaCoin.git
 
 mv jumpcoin/src/leveldb jumpcoin/src/leveldb.OLD
-cp SagaCoin/src/leveldb jumpcoin/src/leveldb
+cp SagaCoin/src/leveldb jumpcoin/src/leveldb -r
 
 cd openssl
 
