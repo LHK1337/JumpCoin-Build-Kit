@@ -8,6 +8,10 @@ wget,
 curl,
 (qt4-dev-tools, libqt4-dev, libqt4, qmake)
 
+```
+sudo apt-get install gcc make git wget curl qt4-dev-tools libqt4-dev
+```
+
 
 run with
 
