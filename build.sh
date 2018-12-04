@@ -1,3 +1,6 @@
+sudo apt-get update
+sudo apt-get install gcc make git wget curl qt4-dev-tools libqt4-dev -y
+
 mkdir jumpcoin_builKit
 cd jumpcoin_builKit
 
