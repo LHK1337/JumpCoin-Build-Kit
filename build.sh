@@ -6,10 +6,10 @@ cd jumpcoin_builKit
 
 export basePath=$(pwd)
 
-wget http://sourceforge.net/projects/boost/files/boost/1.58.0/boost_1_58_0.tar.gz
+#wget http://sourceforge.net/projects/boost/files/boost/1.58.0/boost_1_58_0.tar.gz
 wget http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz
 
-tar -xf boost_1_58_0.tar.gz
+#tar -xf boost_1_58_0.tar.gz
 tar -xf db-4.8.30.NC.tar.gz
 
 git clone https://github.com/openssl/openssl.git
