@@ -42,8 +42,8 @@ cd boost_1_58_0
 
 cd ..
 
-rm boost_1_58_0/boost/asio/ssl/impl/context.ipp
-curl https://raw.githubusercontent.com/LHK1337/JumpCoin-Build-Kit/master/context.ipp > boost_1_58_0/boost/asio/ssl/impl/context.ipp
+rm boost_1_58_0/build/include/boost/asio/ssl/impl/context.ipp
+curl https://raw.githubusercontent.com/LHK1337/JumpCoin-Build-Kit/master/context.ipp > boost_1_58_0/build/include/boost/asio/ssl/impl/context.ipp
 
 rm jumpcoin/src/makefile.unix
 curl https://raw.githubusercontent.com/LHK1337/JumpCoin-Build-Kit/master/makefile.unix > jumpcoin/src/makefile.unix
