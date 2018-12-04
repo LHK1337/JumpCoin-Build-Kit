@@ -65,7 +65,6 @@ export OPENSSL_LIB_PATH=/../../openssl/build/lib
 
 make -f makefile.unix
 strip jumcoind
-mv jumpcoind ../../jumpcoin_node
 
 cd ..
 
