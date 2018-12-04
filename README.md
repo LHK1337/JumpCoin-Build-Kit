@@ -6,7 +6,7 @@ make,
 git,
 wget,
 curl,
-(qt4, qmake)
+(qt4-dev-tools)
 
 
 run with
