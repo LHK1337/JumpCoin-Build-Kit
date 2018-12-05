@@ -67,7 +67,7 @@ export BDB_LIB_PATH=../../db-4.8.30.NC/build_unix/lib
 export OPENSSL_LIB_PATH=../../openssl/build/lib
 
 make -f makefile.unix
-strip jumcoind
+strip jumpcoind
 
 cd ..
 
