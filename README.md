@@ -36,4 +36,6 @@ Installation:
 - setup network
 - boot pi
 - change password ($ passwd)
+- run $ raspi-config
+- Expand Filesystem
 - enjoy
