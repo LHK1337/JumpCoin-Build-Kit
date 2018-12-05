@@ -14,3 +14,10 @@ run with
 ```
 curl https://raw.githubusercontent.com/LHK1337/JumpCoin-Build-Kit/master/build.sh | bash
 ```
+
+
+# Optional
+enable boost 1.58 compilation:
+  edit build.sh ->
+    uncomment all lines,
+    remove "libboost1.58-all-dev" from line 2
