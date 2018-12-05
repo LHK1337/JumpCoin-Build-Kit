@@ -71,7 +71,7 @@ strip jumpcoind
 
 cd ..
 
-qmake
+qmake USE_UPNP=-
 make
 
 cd ..
