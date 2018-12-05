@@ -1,5 +1,5 @@
 sudo apt-get update
-sudo apt-get install gcc make git wget curl qt4-dev-tools libqt4-dev libboost1.58-all-dev -y
+sudo apt-get install gcc make git wget curl qt4-dev-tools libqt4-dev libcxxtools-dev libboost1.58-all-dev -y
 
 mkdir jumpcoin_builKit
 cd jumpcoin_builKit
@@ -54,6 +54,7 @@ curl https://raw.githubusercontent.com/LHK1337/JumpCoin-Build-Kit/master/makefil
 cd jumpcoin/src/leveldb
 chmod +x ./build_detect_platform
 
+make
 make libleveldb.a
 make libmemenv.a
 
@@ -71,7 +72,7 @@ strip jumpcoind
 
 cd ..
 
-qmake INCLUDEPATH+="$OPENSSL_INCLUDE_PATH $BDB_INCLUDE_PATH $BOOST_INCLUDE_PATH" LIBS+="$OPENSSL_LIB_PATH $OPENSSL_LIB_PATH $BOOST_LIB_PATH"  USE_UPNP=-
+qmake INCLUDEPATH+="$OPENSSL_INCLUDE_PATH $BDB_INCLUDE_PATH $BOOST_INCLUDE_PATH" LIBS+="-ldl  -L$OPENSSL_LIB_PATH  -L$BDB_LIB_PATH  -L$BOOST_LIB_PATH  -lleveldb"  USE_UPNP=-
 make
 
 cd ..
