@@ -76,3 +76,7 @@ qmake INCLUDEPATH+="$OPENSSL_INCLUDE_PATH $BDB_INCLUDE_PATH $BOOST_INCLUDE_PATH"
 make
 
 cd ..
+
+echo ###########################################################
+echo "Don't forget to add $BDB_LIB_PATH to your LD_LIBRARY_PATH"
+echo ###########################################################
