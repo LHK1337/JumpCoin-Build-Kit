@@ -1,0 +1,1 @@
+RaspbianStretch_Jumpcoin_051218.tar.xz filter=lfs diff=lfs merge=lfs -text
