@@ -17,13 +17,13 @@ curl https://raw.githubusercontent.com/LHK1337/JumpCoin-Build-Kit/master/build.s
 
 
 # Optional
-Enable boost 1.58 compilation:
+### Enable boost 1.58 compilation:
 - edit build.sh:
   - uncomment all lines
   - remove "libboost1.58-all-dev" from line 2
     
 
-# Raspbian image
+# Raspbian image [\[Download\]](https://github.com/LHK1337/JumpCoin-Build-Kit/raw/master/RaspbianStretch_Jumpcoin_051218.tar.xz)
 Raspbian (stretch) image with:
 - [x] preinstalled/preconfigured jumpcoind, jumpcoin-qt, jumpcoin-cli
 - [x] jumpcoind autostart with screen
