@@ -14,13 +14,6 @@
 ```
 curl https://raw.githubusercontent.com/LHK1337/JumpCoin-Build-Kit/master/build.sh | bash
 ```
-
-
-# Optional
-### Enable boost 1.58 compilation:
-- edit build.sh:
-  - uncomment all lines
-  - remove "libboost1.58-all-dev" from line 2
     
 
 # Raspbian image [\[Download\]](https://github.com/LHK1337/JumpCoin-Build-Kit/raw/master/RaspbianStretch_Jumpcoin_051218.tar.xz)
