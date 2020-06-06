@@ -33,7 +33,9 @@ RUN apk update --no-cache ;\
     chmod +x ./build_detect_platform ;\
     make -j$(nproc) ;\
     make libleveldb.a ;\
+    make libleveldb.so ;\
     make libmemenv.a ;\
+    make libmemenv.so ;\
     cd .. ;\
     export BOOST_INCLUDE_PATH=$basePath/out/boost/build/include ;\
     export BDB_INCLUDE_PATH=$basePath/out/db-4.8.30.NC/build_unix/include ;\
