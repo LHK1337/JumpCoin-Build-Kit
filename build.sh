@@ -14,10 +14,10 @@ tar -xf db-4.8.30.NC.tar.gz
 
 git clone https://github.com/openssl/openssl.git
 git clone https://github.com/Jumperbillijumper/jumpcoin.git
-git clone https://github.com/sagacrypto/SagaCoin.git
+git clone https://github.com/sagacrypto/DarkSaga.git
 
 mv jumpcoin/src/leveldb jumpcoin/src/leveldb.OLD
-cp SagaCoin/src/leveldb jumpcoin/src/leveldb -r
+cp DarkSaga/src/leveldb jumpcoin/src/leveldb -r
 
 cd openssl
 
